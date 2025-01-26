@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<AcqSource_Item_Disk Version="1">
+  <Default>
+    <DiskItem Version="2" Folder="C:\Users\Public\Documents\Demetra\Demo_eShel #1\" StartIndex="-1" RootName="" UseSessionFolder="1">
+      <SequenceItem Version="1" Name="Disk" Id="0" SequenceType="Disk">
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="1" IsBinningColDefined="1" IsBinningRowDefined="1" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </DiskItem>
+  </Default>
+</AcqSource_Item_Disk>

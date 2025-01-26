@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Instruments>
+  <Instrument Version="1.0" Name="None">
+    <Telescope Version="2" Name="NoTelescope" Diameter_mm="200" Focal_mm="1000" Description="" />
+    <Spectroscope Name="NoDevice" Description="" SlitPresence="False" />
+    <Camera Version="1" Name="NoCamera" Description="" SensorType="CCD" />
+  </Instrument>
+</Instruments>

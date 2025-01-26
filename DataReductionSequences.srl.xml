@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<Sequences>
+  <Sequence Version="1" NAME="Alpy 600" SequenceType="Observation">
+    <SequenceObs Version="1">
+      <ProcessId Version="3" Type="Alpy" Subtype="1" />
+    </SequenceObs>
+    <DefaultDevicesParams>
+      <SequenceItem Version="1" Name="" Id="-1" SequenceType="Free">
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </DefaultDevicesParams>
+    <SequenceItems>
+      <SequenceItem Version="1" Name="Bias" Id="0" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Offset" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="0" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Dark" Id="1" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Dark" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="1000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Flat" Id="2" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Flat" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Flat">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Calibration" Id="3" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Calibration" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Calibration">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </SequenceItems>
+  </Sequence>
+  <Sequence Version="1" NAME="LISA" SequenceType="Observation">
+    <SequenceObs Version="1">
+      <ProcessId Version="3" Type="Lisa" Subtype="1" />
+    </SequenceObs>
+    <DefaultDevicesParams>
+      <SequenceItem Version="1" Name="" Id="-1" SequenceType="Free">
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </DefaultDevicesParams>
+    <SequenceItems>
+      <SequenceItem Version="1" Name="Bias" Id="0" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Offset" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="0" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Dark" Id="1" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Dark" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="1000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Flat" Id="2" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Flat" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Flat">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Calibration" Id="3" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Calibration" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Calibration">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </SequenceItems>
+  </Sequence>
+  <Sequence Version="1" NAME="Polarimetry" SequenceType="Observation">
+    <SequenceObs Version="1">
+      <ProcessId Version="3" Type="Polarimetry" Subtype="2" />
+    </SequenceObs>
+    <DefaultDevicesParams>
+      <SequenceItem Version="1" Name="" Id="-1" SequenceType="Free">
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="0">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </DefaultDevicesParams>
+    <SequenceItems>
+      <SequenceItem Version="1" Name="Pola 22.5°" Id="0" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Object" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="0">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" Angle_deg="11.25" IsAngleDefined="1">
+            <DeviceId Version="1" DeviceType="Rotator" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Pola 67.5°" Id="1" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Object" Num="2" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="0">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" Angle_deg="33.75" IsAngleDefined="1">
+            <DeviceId Version="1" DeviceType="Rotator" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Pola 0°" Id="2" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Object" Num="3" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="0">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" Angle_deg="0" IsAngleDefined="1">
+            <DeviceId Version="1" DeviceType="Rotator" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Pola 45°" Id="3" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Object" Num="4" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="0">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" Angle_deg="22.5" IsAngleDefined="1">
+            <DeviceId Version="1" DeviceType="Rotator" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </SequenceItems>
+  </Sequence>
+  <Sequence Version="1" NAME="eShel" SequenceType="Observation">
+    <SequenceObs Version="1">
+      <ProcessId Version="3" Type="eShel" Subtype="1" />
+    </SequenceObs>
+    <DefaultDevicesParams>
+      <SequenceItem Version="1" Name="" Id="-1" SequenceType="Free">
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </DefaultDevicesParams>
+    <SequenceItems>
+      <SequenceItem Version="1" Name="Bias" Id="0" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Offset" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="0" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Dark" Id="1" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Dark" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="1000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Flat" Id="2" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Flat" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Flat">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Calibration" Id="3" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Calibration" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Calibration">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </SequenceItems>
+  </Sequence>
+  <Sequence Version="1" NAME="Whoppshel" SequenceType="Observation">
+    <SequenceObs Version="1">
+      <ProcessId Version="3" Type="Whoppshel" Subtype="1" />
+    </SequenceObs>
+    <DefaultDevicesParams>
+      <SequenceItem Version="1" Name="" Id="-1" SequenceType="Free">
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="3" Binning_Col="1" Binning_Row="1" Count="1" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </DefaultDevicesParams>
+    <SequenceItems>
+      <SequenceItem Version="1" Name="Bias" Id="0" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Offset" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="0" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Dark" Id="1" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Dark" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="1000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="0" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Dark">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Flat" Id="2" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Flat" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Flat">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+      <SequenceItem Version="1" Name="Calibration" Id="3" SequenceType="Observation">
+        <SequenceItem_Observation Version="1">
+          <BasketId Version="3" SrlType="Calibration" Num="1" HasNumberId="0" />
+        </SequenceItem_Observation>
+        <Devices>
+          <DeviceParam Version="2" ParamVersion="1" Exposure_ms="10000" Binning_Col="1" Binning_Row="1" Count="3" IsExposureDefined="1" IsBinningColDefined="0" IsBinningRowDefined="0" IsCountDefined="1">
+            <DeviceId Version="1" DeviceType="Camera" DeviceNum="1" />
+          </DeviceParam>
+          <DeviceParam Version="2" ParamVersion="1" LightSource="Calibration">
+            <DeviceId Version="1" DeviceType="LightSource" DeviceNum="1" />
+          </DeviceParam>
+        </Devices>
+      </SequenceItem>
+    </SequenceItems>
+  </Sequence>
+</Sequences>

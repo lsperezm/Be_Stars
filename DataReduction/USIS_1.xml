@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<USIS Version="1">
+  <Generic Version="1" Type="Usis">
+    <Identifiers Version="5" DeviceType="Usis" Name="UVEX Motors" VendorName="" SerialNumber="" ImageName="UVEXSE0021-400x400.png" Class="SideRealLight.Device.USIS.SrlDevice_USIS">
+      <Connexion>
+        <NumericIdConnexion Version="1" Identifier="0" />
+      </Connexion>
+    </Identifiers>
+    <Model Version="1" Vendor="" Model="" SerialNumber="" />
+  </Generic>
+  <Device Name="UVEX Motors" Description="Spectroscope" />
+</USIS>

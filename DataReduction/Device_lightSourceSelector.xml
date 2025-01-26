@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Generic Version="1" Type="LightSource">
+  <Identifiers Version="5" DeviceType="Unknown" Name="" VendorName="" SerialNumber="" ImageName="" Class="SideRealLight.Device.DetectedDeviceItem">
+    <Connexion>
+      <NumericIdConnexion Version="1" Identifier="0" />
+    </Connexion>
+  </Identifiers>
+  <Model Version="1" Vendor="" Model="" SerialNumber="" />
+</Generic>

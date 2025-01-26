@@ -1,0 +1,9 @@
+# BALMER lines definition
+# Line wavelength (Angstrom); Line width (Angstrom);Line name (optional)
+3835.39;40;H 9
+3889.05;50;H 8
+3970.08;55;H epsilon
+4101.75;80;H delta
+4340.48;80;H gamma
+4861.34;90;H beta
+6562.81;90;H alpha

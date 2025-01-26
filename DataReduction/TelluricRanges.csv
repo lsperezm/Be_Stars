@@ -1,0 +1,15 @@
+# This file defines areas range for 
+# The format is CSV
+# Column definition : "first wavelength";"last wavelength";"first intensity";"last intensity"
+# the two first Columns (wavelength - Angstrom) are mandatories.
+# the two last Columns (intensity) are optionals.
+# ex.1: 4500;4700;25;50
+# ex.2: 4500;4700
+5880;5990
+6275;6335
+6454;6574
+6863;6944
+7146;7396
+7590;7740
+7859;8045
+8108;8384

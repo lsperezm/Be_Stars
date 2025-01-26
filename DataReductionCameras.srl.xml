@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Cameras>
+  <Camera Version="1" Name="NoCamera" Description="" SensorType="CCD" />
+</Cameras>

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<Telescopes>
+  <Telescope Version="2" Name="NoTelescope" Diameter_mm="200" Focal_mm="1000" Description="" />
+</Telescopes>
